@@ -1,0 +1,9 @@
+[2025-11-22 13:18:30.620] ----------------------------------------------
+[2025-11-22 13:18:30.622] Log session started: 20251122_131830
+[2025-11-22 13:18:30.622] Log file: logs\trading_20251122_131830.log
+[2025-11-22 13:18:30.622] Trade file: logs\trades_20251122_131830.csv
+[2025-11-22 13:18:30.622] -----------------------------------------------
+[2025-11-22 13:18:30.623] ═══ NYC Alpha Trader Started ═══
+[2025-11-22 13:18:30.631] System initialized successfully
+
+[2025-11-22 13:18:45.087] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."}

@@ -1,0 +1,22 @@
+[2025-11-23 14:02:26.635] ----------------------------------------------
+[2025-11-23 14:02:26.637] Log session started: 20251123_140226
+[2025-11-23 14:02:26.637] Log file: logs\trading_20251123_140226.log
+[2025-11-23 14:02:26.637] Trade file: logs\trades_20251123_140226.csv
+[2025-11-23 14:02:26.637] -----------------------------------------------
+[2025-11-23 14:02:26.638] ═══ NYC Alpha Trader Started ═══
+[2025-11-23 14:02:26.638] Market Regime Detector initialized
+[2025-11-23 14:02:26.645] System initialized successfully
+
+[2025-11-23 14:02:26.650] Internal Risk Manager initialized (Stealth SL/TP mode)
+[2025-11-23 14:02:32.177] TRADE EXECUTED | OBI | Buy | 0.034000 BTC @ $87092.76 = $2961.15 | Order: 3514359
+[2025-11-23 14:02:53.217] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."} | Qty: 0.045 @ 87198.91 | USDT Required: $3923.95
+[2025-11-23 14:03:03.118] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."} | Qty: 0.034 @ 87154.99 | USDT Required: $2963.27
+[2025-11-23 14:03:35.649] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."} | Qty: 0.034 @ 87258.94 | USDT Required: $2966.80
+[2025-11-23 14:04:06.610] TRADE EXECUTED | OBI | Buy | 0.034000 BTC @ $87198.04 = $2964.73 | Order: 3514671
+[2025-11-23 14:04:38.395] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."} | Qty: 0.034 @ 87278.88 | USDT Required: $2967.48
+[2025-11-23 14:04:40.594] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."} | Qty: 0.045 @ 87043.08 | USDT Required: $3916.94
+[2025-11-23 14:05:13.822] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."} | Qty: 0.034 @ 87237.4 | USDT Required: $2966.07
+[2025-11-23 14:05:27.806] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."} | Qty: 0.045 @ 87197.9 | USDT Required: $3923.91
+[2025-11-23 14:06:53.136] [REGIME CHANGE] Ranging → HighVolatility
+[2025-11-23 14:06:57.337] [REGIME CHANGE] HighVolatility → Ranging
+[2025-11-23 14:06:59.082] TRADE EXECUTED | MeanReversion | Buy | 0.045000 BTC @ $87196.48 = $3923.84 | Order: 3515028

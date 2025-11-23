@@ -1,0 +1,10 @@
+[2025-11-22 12:56:05.288] ═══════════════════════════════════════════════
+[2025-11-22 12:56:05.290] Log session started: 20251122_125605
+[2025-11-22 12:56:05.290] Log file: logs\trading_20251122_125605.log
+[2025-11-22 12:56:05.290] Trade file: logs\trades_20251122_125605.csv
+[2025-11-22 12:56:05.290] ═══════════════════════════════════════════════
+[2025-11-22 12:56:05.291] ═══ NYC Alpha Trader Started ═══
+[2025-11-22 12:56:05.298] System initialized successfully
+
+[2025-11-22 12:56:10.329] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+[2025-11-22 12:57:02.056] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}

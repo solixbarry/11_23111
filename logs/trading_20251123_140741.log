@@ -1,0 +1,18 @@
+[2025-11-23 14:07:41.104] ----------------------------------------------
+[2025-11-23 14:07:41.106] Log session started: 20251123_140741
+[2025-11-23 14:07:41.106] Log file: logs\trading_20251123_140741.log
+[2025-11-23 14:07:41.106] Trade file: logs\trades_20251123_140741.csv
+[2025-11-23 14:07:41.106] -----------------------------------------------
+[2025-11-23 14:07:41.107] ═══ NYC Alpha Trader Started ═══
+[2025-11-23 14:07:41.108] Market Regime Detector initialized
+[2025-11-23 14:07:41.115] System initialized successfully
+
+[2025-11-23 14:07:41.121] Internal Risk Manager initialized (Stealth SL/TP mode)
+[2025-11-23 14:07:47.464] TRADE EXECUTED | MeanReversion | Sell | 0.045000 BTC @ $86947.81 = $3912.65 | Order: 3515149
+[2025-11-23 14:08:55.581] TRADE EXECUTED | MeanReversion | Buy | 0.046000 BTC @ $87077.02 = $4005.54 | Order: 3515391
+[2025-11-23 14:08:55.952] TRADE EXECUTED | MeanReversion_Exit | Sell | 0.046000 BTC @ $86205.54 = $3965.45 | Order: 3515392
+[2025-11-23 14:10:40.334] TRADE EXECUTED | MeanReversion | Sell | 0.045000 BTC @ $86604.73 = $3897.21 | Order: 3515685
+[2025-11-23 14:12:17.075] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $86721.41 = $3989.18 | Order: 3515911
+[2025-11-23 14:12:48.703] TRADE EXECUTED | MeanReversion_Exit | Buy | 0.045000 BTC @ $87013.57 = $3915.61 | Order: 3516022
+[2025-11-23 14:13:01.886] TRADE EXECUTED | MeanReversion | Buy | 0.046000 BTC @ $87013.29 = $4002.61 | Order: 3516071
+[2025-11-23 14:13:02.523] TRADE EXECUTED | MeanReversion_Exit | Sell | 0.046000 BTC @ $86722.78 = $3989.25 | Order: 3516073

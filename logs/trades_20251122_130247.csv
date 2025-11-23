@@ -1,0 +1,2 @@
+Timestamp,Strategy,Side,Size(BTC),Price(USD),Value(USD),OrderId
+2025-11-22 13:02:58.279,MeanReversion,Buy,0.047000,83948.40,3945.57,3333109

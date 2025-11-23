@@ -1,0 +1,200 @@
+[2025-11-22 13:20:05.616] ----------------------------------------------
+[2025-11-22 13:20:05.618] Log session started: 20251122_132005
+[2025-11-22 13:20:05.618] Log file: logs\trading_20251122_132005.log
+[2025-11-22 13:20:05.618] Trade file: logs\trades_20251122_132005.csv
+[2025-11-22 13:20:05.618] -----------------------------------------------
+[2025-11-22 13:20:05.619] ═══ NYC Alpha Trader Started ═══
+[2025-11-22 13:20:05.626] System initialized successfully
+
+[2025-11-22 13:20:15.845] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84152.10 = $3955.15 | Order: 3335307
+[2025-11-22 13:21:03.257] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84149.96 = $3955.05 | Order: 3335361
+[2025-11-22 13:21:54.374] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $83903.94 = $3859.58 | Order: 3335437
+[2025-11-22 13:22:45.861] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83905.73 = $3943.57 | Order: 3335547
+[2025-11-22 13:23:52.387] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84146.27 = $3954.87 | Order: 3335733
+[2025-11-22 13:25:05.048] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84063.35 = $3950.98 | Order: 3335904
+[2025-11-22 13:26:02.101] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84039.21 = $3949.84 | Order: 3336000
+[2025-11-22 13:27:35.725] TRADE EXECUTED | MeanReversion | Buy | 0.048000 BTC @ $84029.44 = $4033.41 | Order: 3336173
+[2025-11-22 13:28:59.471] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $83777.45 = $3853.76 | Order: 3336298
+[2025-11-22 13:30:36.334] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83778.97 = $3937.61 | Order: 3336480
+[2025-11-22 13:31:24.629] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83779.66 = $3937.64 | Order: 3336549
+[2025-11-22 13:32:28.194] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84016.95 = $3948.80 | Order: 3336657
+[2025-11-22 13:33:17.625] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84014.20 = $3948.67 | Order: 3336743
+[2025-11-22 13:34:39.094] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83649.08 = $3931.51 | Order: 3336966
+[2025-11-22 13:35:28.652] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83653.22 = $3931.70 | Order: 3337077
+[2025-11-22 13:36:23.582] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84007.57 = $3948.36 | Order: 3337200
+[2025-11-22 13:38:31.348] TRADE EXECUTED | MeanReversion | Buy | 0.048000 BTC @ $83974.96 = $4030.80 | Order: 3337435
+[2025-11-22 13:40:28.657] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $83969.19 = $3946.55 | Order: 3337627
+[2025-11-22 13:41:47.413] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $83964.71 = $3946.34 | Order: 3337733
+[2025-11-22 13:42:34.158] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83661.45 = $3932.09 | Order: 3337828
+[2025-11-22 13:43:53.794] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83664.84 = $3932.25 | Order: 3337985
+[2025-11-22 13:44:41.032] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83685.52 = $3933.22 | Order: 3338100
+[2025-11-22 13:45:27.473] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $83702.95 = $3850.34 | Order: 3338176
+[2025-11-22 13:46:12.201] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $83703.72 = $3850.37 | Order: 3338242
+[2025-11-22 13:48:05.830] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84015.04 = $2940.53 | Order: 3338493
+[2025-11-22 13:48:55.215] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84041.79 = $2941.46 | Order: 3338593
+[2025-11-22 13:49:02.459] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83990.03 = $3947.53 | Order: 3338596
+[2025-11-22 13:49:52.758] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84152.81 = $2945.35 | Order: 3338704
+[2025-11-22 13:49:53.611] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83957.65 = $3946.01 | Order: 3338705
+[2025-11-22 13:50:23.989] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84109.88 = $2943.85 | Order: 3338790
+[2025-11-22 13:51:30.340] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83829.38 = $3939.98 | Order: 3338939
+[2025-11-22 13:52:16.370] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 83831.08 | USDT Required: $3940.06
+[2025-11-22 13:53:16.719] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84102.99 = $3952.84 | Order: 3339237
+[2025-11-22 13:54:10.060] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84099.82 = $3952.69 | Order: 3339336
+[2025-11-22 13:55:38.027] TRADE EXECUTED | MeanReversion | Buy | 0.048000 BTC @ $84095.75 = $4036.60 | Order: 3339462
+[2025-11-22 13:56:45.175] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84092.76 = $3952.36 | Order: 3339593
+[2025-11-22 13:58:47.879] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84087.89 = $3952.13 | Order: 3339787
+[2025-11-22 13:59:43.817] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83833.29 = $3940.16 | Order: 3339881
+[2025-11-22 14:01:05.600] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83836.60 = $3940.32 | Order: 3340064
+[2025-11-22 14:01:56.549] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83907.76 = $3943.66 | Order: 3340187
+[2025-11-22 14:02:58.302] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $83921.36 = $3860.38 | Order: 3340351
+[2025-11-22 14:03:58.991] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $83924.30 = $3860.52 | Order: 3340489
+[2025-11-22 14:05:12.357] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.046 @ 83946.03 | USDT Required: $3861.52
+[2025-11-22 14:07:00.735] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 83974.1 | USDT Required: $3946.78
+[2025-11-22 14:08:49.212] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84371.98 = $3965.48 | Order: 3341038
+[2025-11-22 14:10:53.969] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84266.88 = $3960.54 | Order: 3341296
+[2025-11-22 14:11:43.938] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83987.98 = $3947.44 | Order: 3341419
+[2025-11-22 14:13:43.943] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84037.51 = $3949.76 | Order: 3341722
+[2025-11-22 14:14:18.058] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84376.95 = $2953.19 | Order: 3341826
+[2025-11-22 14:14:36.268] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $84246.37 = $3875.33 | Order: 3341914
+[2025-11-22 14:14:59.509] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84458.40 = $2956.04 | Order: 3341942
+[2025-11-22 14:15:50.825] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84593.43 = $2960.77 | Order: 3342071
+[2025-11-22 14:16:04.527] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84440.62 = $3968.71 | Order: 3342121
+[2025-11-22 14:17:33.565] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84714.11 = $3981.56 | Order: 3342366
+[2025-11-22 14:19:16.688] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84243.00 = $3959.42 | Order: 3342631
+[2025-11-22 14:20:05.498] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84702.87 = $3981.03 | Order: 3342751
+[2025-11-22 14:21:08.149] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84277.70 = $3961.05 | Order: 3342905
+[2025-11-22 14:22:15.693] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84692.07 = $3980.53 | Order: 3343111
+[2025-11-22 14:23:52.061] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84681.27 = $3980.02 | Order: 3343366
+[2025-11-22 14:24:41.416] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84624.24 = $3977.34 | Order: 3343473
+[2025-11-22 14:25:51.099] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84286.54 = $3961.47 | Order: 3343646
+[2025-11-22 14:29:08.927] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84728.64 = $3982.25 | Order: 3344167
+[2025-11-22 14:29:58.864] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84727.61 = $3982.20 | Order: 3344236
+[2025-11-22 14:30:54.287] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84725.42 = $3982.09 | Order: 3344343
+[2025-11-22 14:31:53.230] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84723.20 = $3981.99 | Order: 3344454
+[2025-11-22 14:32:50.684] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84721.35 = $3981.90 | Order: 3344573
+[2025-11-22 14:33:37.808] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84721.28 = $3981.90 | Order: 3344726
+[2025-11-22 14:34:56.281] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84718.33 = $3981.76 | Order: 3344943
+[2025-11-22 14:35:52.446] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84715.75 = $3981.64 | Order: 3345105
+[2025-11-22 14:36:44.756] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84711.07 = $3981.42 | Order: 3345210
+[2025-11-22 14:38:44.316] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84707.72 = $3981.26 | Order: 3345480
+[2025-11-22 14:39:30.163] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84423.05 = $3967.88 | Order: 3345634
+[2025-11-22 14:40:46.771] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84690.70 = $3980.46 | Order: 3345792
+[2025-11-22 14:41:59.620] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84689.33 = $3980.40 | Order: 3345951
+[2025-11-22 14:42:45.581] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84688.05 = $3980.34 | Order: 3346019
+[2025-11-22 14:44:00.851] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84631.32 = $3977.67 | Order: 3346115
+[2025-11-22 14:45:15.773] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84628.58 = $3977.54 | Order: 3346227
+[2025-11-22 14:46:03.668] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84591.98 = $3975.82 | Order: 3346324
+[2025-11-22 14:46:56.353] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84518.25 = $3972.36 | Order: 3346456
+[2025-11-22 14:48:19.691] TRADE EXECUTED | OBI | Sell | 0.035000 BTC @ $84292.10 = $2950.22 | Order: 3346666
+[2025-11-22 14:48:46.396] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84292.64 = $3961.75 | Order: 3346691
+[2025-11-22 14:49:42.062] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84293.63 = $3961.80 | Order: 3346820
+[2025-11-22 14:50:26.069] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84509.48 = $2957.83 | Order: 3346911
+[2025-11-22 14:51:29.014] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84693.52 = $3980.60 | Order: 3347057
+[2025-11-22 14:53:20.601] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84684.91 = $3980.19 | Order: 3347289
+[2025-11-22 14:54:54.554] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84682.43 = $3980.07 | Order: 3347491
+[2025-11-22 14:56:32.071] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84677.86 = $3979.86 | Order: 3347623
+[2025-11-22 14:59:00.148] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84672.90 = $3979.63 | Order: 3347865
+[2025-11-22 14:59:51.144] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84670.22 = $3979.50 | Order: 3347937
+[2025-11-22 15:01:08.260] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84667.99 = $3979.40 | Order: 3348128
+[2025-11-22 15:03:03.028] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84662.22 | USDT Required: $3979.12
+[2025-11-22 15:04:51.712] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84657.13 | USDT Required: $3978.89
+[2025-11-22 15:06:00.466] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84622.62 | USDT Required: $3977.26
+[2025-11-22 15:08:06.267] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84618.89 | USDT Required: $3977.09
+[2025-11-22 15:09:12.605] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84666.52 | USDT Required: $3979.33
+[2025-11-22 15:10:14.453] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84582.87 | USDT Required: $3975.39
+[2025-11-22 15:11:07.204] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84578.95 | USDT Required: $3975.21
+[2025-11-22 15:12:53.777] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84537.87 | USDT Required: $3973.28
+[2025-11-22 15:14:21.439] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84534.55 | USDT Required: $3973.12
+[2025-11-22 15:15:08.577] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84282.36 = $3961.27 | Order: 3349643
+[2025-11-22 15:15:55.760] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84532.31 = $3973.02 | Order: 3349724
+[2025-11-22 15:15:55.872] [STATUS] Signals: 2528 | P&L: $84.03 | Win%: 0.0%
+[2025-11-22 15:17:23.804] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84531.39 | USDT Required: $3972.98
+[2025-11-22 15:18:15.013] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84657.53 | USDT Required: $3978.90
+[2025-11-22 15:19:07.663] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84608.76 | USDT Required: $3976.61
+[2025-11-22 15:19:56.790] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84594.6 | USDT Required: $3975.95
+[2025-11-22 15:21:15.504] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84571.21 | USDT Required: $3974.85
+[2025-11-22 15:22:00.403] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84569.47 | USDT Required: $3974.77
+[2025-11-22 15:23:35.602] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84565.44 | USDT Required: $3974.58
+[2025-11-22 15:24:47.612] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $84294.22 = $3877.53 | Order: 3350739
+[2025-11-22 15:27:14.155] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84561.60 = $3974.40 | Order: 3351001
+[2025-11-22 15:28:43.592] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84300.79 = $3962.14 | Order: 3351159
+[2025-11-22 15:29:31.724] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84559.75 = $3974.31 | Order: 3351226
+[2025-11-22 15:31:09.593] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84557.54 | USDT Required: $3974.20
+[2025-11-22 15:32:33.549] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84555.42 | USDT Required: $3974.10
+[2025-11-22 15:33:34.073] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84553.86 | USDT Required: $3974.03
+[2025-11-22 15:35:09.406] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84552.51 | USDT Required: $3973.97
+[2025-11-22 15:36:59.575] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84550.82 | USDT Required: $3973.89
+[2025-11-22 15:37:49.696] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84549.09 | USDT Required: $3973.81
+[2025-11-22 15:39:12.000] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84545.94 | USDT Required: $3973.66
+[2025-11-22 15:39:59.957] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84523.44 | USDT Required: $3972.60
+[2025-11-22 15:41:35.877] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84029.34 = $3949.38 | Order: 3352679
+[2025-11-22 15:43:51.270] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84264.86 = $3960.45 | Order: 3352915
+[2025-11-22 15:44:54.923] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84263.44 | USDT Required: $3960.38
+[2025-11-22 15:45:47.562] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $83901.89 = $3859.49 | Order: 3353137
+[2025-11-22 15:47:22.155] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84247.48 = $3959.63 | Order: 3353374
+[2025-11-22 15:48:16.362] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84245.8 | USDT Required: $3959.55
+[2025-11-22 15:49:30.921] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84246.72 | USDT Required: $3959.60
+[2025-11-22 15:50:45.982] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84245.01 | USDT Required: $3959.52
+[2025-11-22 15:51:31.440] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84031.33 = $3949.47 | Order: 3353846
+[2025-11-22 15:52:32.169] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84243.64 = $3959.45 | Order: 3353930
+[2025-11-22 15:52:57.974] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.035 @ 84243.21 | USDT Required: $2948.51
+[2025-11-22 15:53:29.914] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.035 @ 84242.77 | USDT Required: $2948.50
+[2025-11-22 15:53:58.723] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84033.61 = $3949.58 | Order: 3354059
+[2025-11-22 15:54:02.921] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84242.27 = $2948.48 | Order: 3354103
+[2025-11-22 15:54:34.297] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.035 @ 84241.83 | USDT Required: $2948.46
+[2025-11-22 15:55:08.141] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.035 @ 84241.33 | USDT Required: $2948.45
+[2025-11-22 15:55:39.913] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.035 @ 84240.94 | USDT Required: $2948.43
+[2025-11-22 15:55:43.867] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84034.83 = $3949.64 | Order: 3354349
+[2025-11-22 15:56:09.939] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84240.59 = $2948.42 | Order: 3354399
+[2025-11-22 15:56:42.939] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.035 @ 84240.14 | USDT Required: $2948.40
+[2025-11-22 15:56:55.730] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84240.03 | USDT Required: $3959.28
+[2025-11-22 15:57:14.050] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.035 @ 84239.8 | USDT Required: $2948.39
+[2025-11-22 15:57:47.015] [ORDER EXECUTION] OBI failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.035 @ 84239.45 | USDT Required: $2948.38
+[2025-11-22 15:58:14.911] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84036.20 = $3949.70 | Order: 3354608
+[2025-11-22 15:58:19.916] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84239.09 = $2948.37 | Order: 3354653
+[2025-11-22 15:58:54.943] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84238.92 = $2948.36 | Order: 3354743
+[2025-11-22 15:59:03.171] TRADE EXECUTED | MeanReversion | Sell | 0.046000 BTC @ $84037.57 = $3865.73 | Order: 3354746
+[2025-11-22 16:01:08.871] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84052.27 = $3950.46 | Order: 3355015
+[2025-11-22 16:02:21.398] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84074.96 = $3951.52 | Order: 3355186
+[2025-11-22 16:03:08.628] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84076.37 = $3951.59 | Order: 3355256
+[2025-11-22 16:04:28.696] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84078.91 = $3951.71 | Order: 3355439
+[2025-11-22 16:05:19.825] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84439.86 = $3968.67 | Order: 3355515
+[2025-11-22 16:06:54.110] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84081.17 = $3951.81 | Order: 3355719
+[2025-11-22 16:07:40.340] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84082.03 = $3951.86 | Order: 3355810
+[2025-11-22 16:08:25.467] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84125.85 = $3953.91 | Order: 3355937
+[2025-11-22 16:10:52.600] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84182.77 = $3956.59 | Order: 3356260
+[2025-11-22 16:11:44.821] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84301.25 = $3962.16 | Order: 3356408
+[2025-11-22 16:12:33.967] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84305.33 = $3962.35 | Order: 3356622
+[2025-11-22 16:13:22.901] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84311.42 = $3962.64 | Order: 3356681
+[2025-11-22 16:14:26.539] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84314.54 = $3962.78 | Order: 3356773
+[2025-11-22 16:15:13.355] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84324.00 = $3963.23 | Order: 3356901
+[2025-11-22 16:17:12.011] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84395.05 = $3966.57 | Order: 3357160
+[2025-11-22 16:18:01.549] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84396.81 = $3966.65 | Order: 3357294
+[2025-11-22 16:18:46.650] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84398.05 = $3966.71 | Order: 3357399
+[2025-11-22 16:20:04.996] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84683.22 = $3980.11 | Order: 3357629
+[2025-11-22 16:21:02.247] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84678.27 = $3979.88 | Order: 3357740
+[2025-11-22 16:21:50.874] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84400.34 = $3966.82 | Order: 3357839
+[2025-11-22 16:23:11.776] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84402.38 = $3966.91 | Order: 3357998
+[2025-11-22 16:24:01.992] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84403.15 = $3966.95 | Order: 3358095
+[2025-11-22 16:25:02.119] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84403.92 = $3966.98 | Order: 3358165
+[2025-11-22 16:25:53.255] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84405.95 = $3967.08 | Order: 3358289
+[2025-11-22 16:27:34.356] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84408.58 = $3967.20 | Order: 3358487
+[2025-11-22 16:28:22.469] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84409.91 = $3967.27 | Order: 3358551
+[2025-11-22 16:29:55.251] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84414.28 = $3967.47 | Order: 3358670
+[2025-11-22 16:30:40.478] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84416.74 | USDT Required: $3967.59
+[2025-11-22 16:31:55.571] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84417.99 | USDT Required: $3967.65
+[2025-11-22 16:32:40.484] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84419.69 | USDT Required: $3967.73
+[2025-11-22 16:33:31.808] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84420.82 | USDT Required: $3967.78
+[2025-11-22 16:34:53.676] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84680.94 = $3980.00 | Order: 3359388
+[2025-11-22 16:35:42.910] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84422.94 = $3967.88 | Order: 3359456
+[2025-11-22 16:36:32.444] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84679.63 = $3979.94 | Order: 3359557
+[2025-11-22 16:37:21.782] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84424.35 = $3967.94 | Order: 3359709
+[2025-11-22 16:39:00.123] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84427.82 | USDT Required: $3968.11
+[2025-11-22 16:40:21.210] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $84681.29 = $3980.02 | Order: 3360091
+[2025-11-22 16:41:19.270] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84430.05 = $3968.21 | Order: 3360189
+[2025-11-22 16:42:07.294] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84430.98 | USDT Required: $3968.26
+[2025-11-22 16:43:04.124] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84432.9 | USDT Required: $3968.35
+[2025-11-22 16:43:48.992] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84434.84 | USDT Required: $3968.44
+[2025-11-22 16:44:38.512] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."} | Qty: 0.047 @ 84531.87 | USDT Required: $3973.00
+[2025-11-22 16:45:25.146] TRADE EXECUTED | OBI | Buy | 0.035000 BTC @ $84874.94 = $2970.62 | Order: 3360731
+[2025-11-22 16:45:31.699] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $84762.99 = $3983.86 | Order: 3360779

@@ -1,0 +1,15 @@
+[2025-11-22 13:04:02.809] ----------------------------------------------
+[2025-11-22 13:04:02.811] Log session started: 20251122_130402
+[2025-11-22 13:04:02.811] Log file: logs\trading_20251122_130402.log
+[2025-11-22 13:04:02.811] Trade file: logs\trades_20251122_130402.csv
+[2025-11-22 13:04:02.811] -----------------------------------------------
+[2025-11-22 13:04:02.811] ═══ NYC Alpha Trader Started ═══
+[2025-11-22 13:04:02.819] System initialized successfully
+
+[2025-11-22 13:04:13.221] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $83923.21 = $3944.39 | Order: 3333303
+[2025-11-22 13:05:50.134] TRADE EXECUTED | MeanReversion | Buy | 0.047000 BTC @ $83917.29 = $3944.11 | Order: 3333522
+[2025-11-22 13:07:06.813] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83577.92 = $3928.16 | Order: 3333674
+[2025-11-22 13:08:01.285] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83587.27 = $3928.60 | Order: 3333785
+[2025-11-22 13:08:57.317] TRADE EXECUTED | MeanReversion | Sell | 0.047000 BTC @ $83632.79 = $3930.74 | Order: 3333878
+[2025-11-22 13:10:06.225] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."}
+[2025-11-22 13:11:09.043] [ORDER EXECUTION] MeanReversion failed: Binance API error: {"code":-2010,"msg":"Account has insufficient balance for requested action."}

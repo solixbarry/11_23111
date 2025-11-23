@@ -1,0 +1,274 @@
+using System;
+using System.IO;
+using System.Threading;
+using System.Threading.Tasks;
+using NYCAlphaTrader.Connectors;
+using NYCAlphaTrader.Core;
+using NYCAlphaTrader.Strategies;
+using TradingSystem.Configuration;
+using TradingSystem.Core;
+
+namespace NYCAlphaTrader
+{
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            Console.WriteLine("===========================================");
+            Console.WriteLine("NYC ALPHA TRADER - Simplified HFT System");
+            Console.WriteLine("Target: $200-350/day on $47k capital");
+            Console.WriteLine("===========================================\n");
+
+            // Determine environment
+            TradingEnvironment environment = DetermineEnvironment(args);
+
+            Console.WriteLine($"\nINITIALIZING TRADING SYSTEM - {environment}\n");
+
+            // Create parameter manager
+            var paramManager = new StrategyParameterManager(environment);
+            paramManager.LogConfiguration();
+
+            // Configuration
+            var config = new TradingConfig
+            {
+                Capital = 47000,
+                MaxDailyLoss = 2350, // 5% of capital
+                MaxPositionSize = 5000,
+                TradingEnabled = true,
+
+                // Enable strategies based on NYC latency profile
+                EnableOffHoursTrading = true,
+                EnableMeanReversion = true,
+                EnableLiquidationWicks = true,
+                EnableOBI = true,
+                EnableRegimeTrading = true
+            };
+
+            var validator = new OrderBookValidator(
+                maxSpreadPercent: 5.0,
+                minPrice: 10000,
+                maxPrice: 200000,
+                maxPriceJumpPercent: 2.0
+            );
+            var stats = validator.GetStats();
+            Console.WriteLine(stats);
+           
+
+            // Output: Total: 1000 | Valid: 987 | Rejected: 13 (1.30%)
+            var throttler = new SignalThrottler(defaultMinSeconds: 30);
+            // Set strategy-specific times if needed
+            throttler.SetMinTime("OBI", 30);           // 30 seconds for OBI
+            throttler.SetMinTime("MeanReversion", 45);  // 45 seconds for MR
+            throttler.SetMinTime("LiquidationWick", 60); // 60 seconds for Wick
+
+            // Initialize strategies
+            var obiStrategy = new OBIStrategy(config, paramManager);
+            var mrStrategy = new MeanReversionStrategy(config, paramManager);
+            var wickStrategy = new LiquidationWickStrategy(config, paramManager);
+
+            // Export configuration
+            string configPath = $"config_{environment}_{DateTime.UtcNow:yyyyMMdd_HHmmss}.txt";
+            File.WriteAllText(configPath, paramManager.ExportConfiguration());
+
+            // Initialize system components
+            var riskManager = new RiskManager(config);
+            var orderTracker = new OrderTracker();
+            var strategyCoordinator = new StrategyCoordinator(config, riskManager, obiStrategy, mrStrategy, wickStrategy);
+
+            Console.WriteLine("System initialized successfully\n");
+            Console.WriteLine("Enabled Strategies:");
+            Console.WriteLine("  - Off-Hours Alpha (11pm-5am EST)");
+            Console.WriteLine("  - Mean Reversion");
+            Console.WriteLine("  - Liquidation Wick Capture");
+            Console.WriteLine("  - Order Book Imbalance (OBI)");
+            Console.WriteLine("  - Regime Trading\n");
+
+            Console.WriteLine("Press Ctrl+C to stop...\n");
+
+            // Start trading loop
+            var cts = new CancellationTokenSource();
+            Console.CancelKeyPress += (s, e) =>
+            {
+                e.Cancel = true;
+                cts.Cancel();
+                Console.WriteLine("\nShutting down gracefully...");
+            };
+
+            await RunTradingLoop(strategyCoordinator, riskManager, cts.Token, throttler);
+
+            Console.WriteLine("Trading session complete.");
+            PrintDailyStats(strategyCoordinator, riskManager);
+        }
+
+        static async Task RunTradingLoop(
+            StrategyCoordinator coordinator,
+            RiskManager riskManager,
+            CancellationToken cancellationToken,
+            SignalThrottler throttler)
+        {
+            int updateCount = 0;
+
+            var binance = new BinanceConnector();
+            var fillProcessor = new FillProcessor(riskManager);
+            await binance.Connect();
+            await binance.SubscribeOrderBook("BTCUSDT");
+            await binance.SubscribeTicker("BTCUSDT");
+
+            var restClient = new BinanceRestClient();
+
+            // Start Fill Processor in the background
+            // Start FillProcessor
+            var fillTask = Task.Run(async () =>
+                await fillProcessor.SubscribeFills(restClient));
+
+            Console.WriteLine("Waiting 3 seconds for WS connection...");
+            await Task.Delay(3000);  // Give it time to connect
+
+
+            Console.WriteLine("FillProcessor started.");
+
+            while (!cancellationToken.IsCancellationRequested)
+            {
+                try
+                {
+                    // Receive real market data
+                    var marketData = await binance.ReceiveOrderBookUpdate();
+                    if (marketData == null)
+                    {
+                        Console.WriteLine("[WARN] Received null market data, skipping this update.");
+                        continue;
+                    }
+                    else
+                    {
+                        Console.WriteLine(new string('-', 50));
+                        Console.WriteLine(
+                            $"Symbol: {marketData.Symbol} | " +
+                            $"Timestamp: {marketData.Timestamp} | " +
+                            $"BestBid: {marketData.BestBid} | BestAsk: {marketData.BestAsk} | " +
+                            $"BidVol: {marketData.BidVolume} | AskVol: {marketData.AskVolume} | " +
+                            $"LastPrice: {marketData.LastPrice} | " +
+                            $"Volume24h: {marketData.Volume24h}"
+                        );
+
+                        Console.WriteLine("Top 5 Bid Levels:");
+                        foreach (var level in marketData.BidLevels)
+                            Console.WriteLine($"  Price: {level.Price} : Quantity: {level.Quantity}");
+
+                        Console.WriteLine("Top 5 Ask Levels:");
+                        foreach (var level in marketData.AskLevels)
+                            Console.WriteLine($"  Price: {level.Price} : Quantity: {level.Quantity}");
+
+
+                    }
+
+
+                    // Generate signals (your code - already works!)
+                    var signals = coordinator.ProcessMarketUpdate(marketData,throttler);
+                    if (signals == null || signals.Count == 0)
+                    {
+                        Console.WriteLine("[WARN] Received null signals, skipping this update.");
+                        continue; // nothing to process
+                    }
+                    // Execute valid signals
+                    foreach (var signal in signals)
+                    {
+                        if (riskManager.CheckOrder(signal))
+                        {
+                            try
+                            {
+                                var orderId = await restClient.PlaceOrder(signal);
+                                Console.WriteLine($"[ORDER] {signal.Strategy}: {orderId}");
+                                Thread.Sleep(100); // Your timing
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine($"[ERROR] Order failed: {ex.Message}");
+                            }
+                        }
+                    }
+
+                    updateCount++;
+                    if (updateCount % 100 == 0)
+                    {
+                        PrintStatus(coordinator, riskManager);
+                    }
+
+                    await Task.Delay(100, cancellationToken); // 10Hz update rate
+                }
+                catch (OperationCanceledException)
+                {
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"[ERROR] {ex.Message}");
+                }
+            }
+        }
+
+        static MarketData SimulateMarketData()
+        {
+            // TODO: Replace with real market data from exchange
+            var random = new Random();
+            return new MarketData
+            {
+                Symbol = "BTCUSDT",
+                Timestamp = DateTime.UtcNow,
+                BestBid = 50000 + random.NextDouble() * 100,
+                BestAsk = 50005 + random.NextDouble() * 100,
+                BidVolume = 5 + random.NextDouble() * 10,
+                AskVolume = 5 + random.NextDouble() * 10,
+                LastPrice = 50002.5,
+                Volume24h = 1000000
+            };
+        }
+
+        static void PrintStatus(StrategyCoordinator coordinator, RiskManager riskManager)
+        {
+            var stats = coordinator.GetStats();
+            var risk = riskManager.GetRiskStats();
+
+            Console.WriteLine($"\n[STATUS] Signals: {stats.TotalSignals} | P&L: ${risk.DailyPnL:F2} | Win%: {stats.WinRate:P1}");
+        }
+
+        static void PrintDailyStats(StrategyCoordinator coordinator, RiskManager riskManager)
+        {
+            Console.WriteLine("\n===========================================");
+            Console.WriteLine("DAILY PERFORMANCE SUMMARY");
+            Console.WriteLine("===========================================");
+
+            var stats = coordinator.GetStats();
+            var risk = riskManager.GetRiskStats();
+
+            Console.WriteLine($"Total Signals Generated: {stats.TotalSignals}");
+            Console.WriteLine($"Trades Executed: {stats.TradesExecuted}");
+            Console.WriteLine($"Win Rate: {stats.WinRate:P1}");
+            Console.WriteLine($"Daily P&L: ${risk.DailyPnL:F2}");
+            Console.WriteLine($"Max Drawdown: ${risk.MaxDrawdown:F2}");
+            Console.WriteLine($"Sharpe Ratio: {stats.SharpeRatio:F2}");
+
+            Console.WriteLine("\nPer-Strategy Breakdown:");
+            foreach (var kvp in stats.StrategyPnL)
+            {
+                Console.WriteLine($"  {kvp.Key}: ${kvp.Value:F2}");
+            }
+
+            Console.WriteLine("===========================================\n");
+        }
+
+        private static TradingEnvironment DetermineEnvironment(string[] args)
+        {
+            // Command line: dotnet run -- Testnet
+            if (args.Length > 0 && Enum.TryParse<TradingEnvironment>(args[0], true, out var env))
+                return env;
+
+            // Environment variable: export TRADING_ENVIRONMENT=Production
+            string envVar = Environment.GetEnvironmentVariable("TRADING_ENVIRONMENT");
+            if (!string.IsNullOrEmpty(envVar) && Enum.TryParse<TradingEnvironment>(envVar, true, out env))
+                return env;
+
+            // Default to testnet for safety
+            return TradingEnvironment.Testnet;
+        }
+    }
+}

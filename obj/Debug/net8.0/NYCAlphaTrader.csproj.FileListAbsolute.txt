@@ -1,0 +1,29 @@
+/opt/crypto_nyc_alpha/bin/Debug/net8.0/NYCAlphaTrader
+/opt/crypto_nyc_alpha/bin/Debug/net8.0/NYCAlphaTrader.deps.json
+/opt/crypto_nyc_alpha/bin/Debug/net8.0/NYCAlphaTrader.runtimeconfig.json
+/opt/crypto_nyc_alpha/bin/Debug/net8.0/NYCAlphaTrader.dll
+/opt/crypto_nyc_alpha/bin/Debug/net8.0/NYCAlphaTrader.pdb
+/opt/crypto_nyc_alpha/obj/Debug/net8.0/NYCAlphaTrader.GeneratedMSBuildEditorConfig.editorconfig
+/opt/crypto_nyc_alpha/obj/Debug/net8.0/NYCAlphaTrader.AssemblyInfoInputs.cache
+/opt/crypto_nyc_alpha/obj/Debug/net8.0/NYCAlphaTrader.AssemblyInfo.cs
+/opt/crypto_nyc_alpha/obj/Debug/net8.0/NYCAlphaTrader.csproj.CoreCompileInputs.cache
+/opt/crypto_nyc_alpha/obj/Debug/net8.0/NYCAlphaTrader.dll
+/opt/crypto_nyc_alpha/obj/Debug/net8.0/refint/NYCAlphaTrader.dll
+/opt/crypto_nyc_alpha/obj/Debug/net8.0/NYCAlphaTrader.pdb
+/opt/crypto_nyc_alpha/obj/Debug/net8.0/NYCAlphaTrader.genruntimeconfig.cache
+/opt/crypto_nyc_alpha/obj/Debug/net8.0/ref/NYCAlphaTrader.dll
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\bin\Debug\net8.0\NYCAlphaTrader.exe
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\bin\Debug\net8.0\NYCAlphaTrader.deps.json
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\bin\Debug\net8.0\NYCAlphaTrader.runtimeconfig.json
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\bin\Debug\net8.0\NYCAlphaTrader.dll
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\bin\Debug\net8.0\NYCAlphaTrader.pdb
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\NYCAlphaTrader.GeneratedMSBuildEditorConfig.editorconfig
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\NYCAlphaTrader.AssemblyInfoInputs.cache
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\NYCAlphaTrader.AssemblyInfo.cs
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\NYCAlphaTrader.csproj.CoreCompileInputs.cache
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\NYCAlphaTrader.sourcelink.json
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\NYCAlphaTrader.dll
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\refint\NYCAlphaTrader.dll
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\NYCAlphaTrader.pdb
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\NYCAlphaTrader.genruntimeconfig.cache
+E:\Freelancing\clients\barry kunst htf usa\important\NYC_ALPHA_DUST\crypto_nyc_alpha\crypto_nyc_alpha\obj\Debug\net8.0\ref\NYCAlphaTrader.dll
