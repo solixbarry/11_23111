@@ -25,8 +25,8 @@ namespace NYCAlphaTrader.Connectors
     public class BinanceRestClient
     {
         private readonly HttpClient _http = new HttpClient();
-        private readonly string _apiKey = "Lw5ZK7w31dO3cLPmjeu55v881UMhj18uFydh8hF31cHjL4Rj1TdxCnYtzh8T2bbC";
-        private readonly string _secretKey = "whJ3majI1kNukm4FB7ogwkScn1osi4MSSqG6kdmZOEfAcJnvITrbHFuOibyWMhTK";
+        private readonly string _apiKey = "xx";
+        private readonly string _secretKey = "xx";
         // private const string BaseUrl = "https://api.binance.com";
 
         // for testing
